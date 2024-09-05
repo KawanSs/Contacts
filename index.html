@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container">
+                <h1>AGENDA</h1>
+                <h2>DE CONTATOS</h2>
+            </div>
+        </header>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome do Contato</th>
+                    <th>Número de Telefone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        ---
+                    </td>
+                    <td>
+                        +xx (xx) xxxxxx-xxxx
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <form id="form">
+                    <tr>
+                        <td><input type="text" id="iptNome" placeholder="Nome do Contato" required autocomplete="off"></td>
+                        <td><input type="tel" id="iptNum" placeholder="Número do Contato" required autocomplete="off"></td>
+                        <td><button type="submit" id="btnAdd">Adicionar +</button></td>
+                    </tr>
+                </form>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+<footer>
+    <p>
+        &copy; Kawan Soares - All Rights Reserved, 2024.
+    </p>
+</footer>
+</html>
